@@ -8,3 +8,6 @@ primer comeet
 prueba en visual estudio code
 
 version main
+modo mas facil
+jkkj
+kj
