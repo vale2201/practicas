@@ -1,0 +1,10 @@
+base de datos, 
+tipos 
+que es un gestor de base de datos
+ 3 gestores por cadaa tipo de base de datos 
+
+
+,,, 4 operaaciones 
+mysql crear leer y actualizar 
+mongodb
+CRUD

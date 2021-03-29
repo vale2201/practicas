@@ -1,0 +1,5 @@
+print("introduce en primer numero?")
+x=(int(input()))
+print("introduce elsegundo numero?")
+y=int((input()))
+print (x+y)
