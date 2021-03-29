@@ -1,0 +1,16 @@
+lisborr= []
+            
+            for t in myresult:
+                cregistros= cregistros+1
+                lisborr.append(t[0])
+
+                print (t[0])
+
+            if (cregistros != 0 ):
+                #borrar relacion personas-empresa
+                print("borrar la relacion empresa-persona")
+                for b in lisborr:
+                    sql = "DELETE FROM r_empresa_persona WHERE id ="+ str(b)
+                    mycursor.execute(sql)
+                    mydb.commit()
+            #finaliza if
