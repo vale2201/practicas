@@ -1,2 +1,23 @@
 agencia:
-**explicacion de chacon
+Práctica 1: agenda electrónica
+En el lenguaje de programación Python, haciendo uso de clases y objetos, así como de programación estructura y del gestor de base de datos MySQL crear una agenda electrónica de contactos que tenga lo siguiente:
+    -Toda la información deberá estar contenida en una base de datos llamada agenda.
+   - Permitirá registrar tres tipos de entidades:
+       
+       
+        Una entidad llamada grupo a donde pertenece una persona, los grupos deben ser definidos por el usuario y contener una descripción, ejemplos de grupos son: familia, amigos, trabajo
+        
+        
+        Una entidad llamada empresa, a donde podrán registrarse las empresas para las que trabajan las personas registradas en la agenda, los datos de la empresa deben incluir una dirección, un representante o director y un número de contacto empresarial.
+        
+        
+        Una entidad llamada persona en donde se registrarán las personas de la agenda, los datos a incluir en la entidad deben considerar todos los datos básicos de contacto de una persona, además, una persona puede o no pertenecer a uno o varios grupos y a una o varias empresas (No hay un límite en la cantidad de grupos o empresas que pueda contener).
+   
+   
+   
+   - El programa deberá contener un menú para acceder a estas opciones y los submenús correspondientes a la misma
+    -Para cada una de las entidades es necesario contar con las cuatro operaciones básicas, además, en el caso de las empresas o de los grupos deberá comprobarse que no exista ninguna persona registrada en ellos antes de eliminarse
+    -Los usuarios deben poder cambiar libremente los grupos y empresas a las que pertenece un contacto.
+    -La agenda deberá poderse consultar por nombre del contacto, número o empresa y mostrar coincidencias similares (por ejemplo, si escribo “Lu”, el usuario deberá recibir resultados de la agenda como Luisa, Luis, Lulu, etc.)
+
+
