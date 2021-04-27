@@ -12,4 +12,3 @@ def obtener_juegos():
 
 
 
-

@@ -10,7 +10,6 @@ app = Flask(__name__)
 def index():
     return 'Index Page'
 
-
 @app.route("/agenda")
 def juegos():
     juegos = controlador_juegos.obtener_juegos()
