@@ -1,0 +1,13 @@
+html,body {
+    background-color: rgb(205,234,229);
+    height: 100%;
+    width: 100%;
+  }
+  
+.fondoT {
+    font-family:chasy; font-size:20px; 
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+  
+  

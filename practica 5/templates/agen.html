@@ -1,0 +1,37 @@
+{% extends "maestra.html" %}
+{% block titulo %} Agenda {% endblock %}
+{% block contenido %}
+
+
+<section class="section">
+    <div class="columns">
+        <div class="column">
+            <h3 class="is-size-3"><b>Contactos</b></h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Telefono</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for juego in agen %}
+                    <tr>
+                        <td>{{juego[1]}}</td>
+                        <td>{{juego[2]}}</td>
+                        <td>{{juego[3]}}</td>
+                        <td>
+                            {# Pasar el id (lo que hay en juego[0] #}
+                        </td>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endblock %}
